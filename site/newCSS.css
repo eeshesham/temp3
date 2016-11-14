@@ -1,0 +1,54 @@
+/*
+- All HTML elements can be considered as boxes.
+- the term "box model" is used when talking about design and layout.
+- It's essentially a box that wraps around every HTML element.
+- It consists of: margins, borders, padding, and the actual content.
+*/
+/* good styling practice >> ex; u style from outside to insid; the whole div (same style) then
+ all the pragraphs (same style) then each individual p individual style using ids or classes
+  as in the floating example from coursera ... save time, code consise, smart,...  */
+  
+#myimg{
+	float: right;
+
+	width:90px;
+	height:110px;
+	padding: 3px;
+	border: 7px brown groove ; /* shorthand width color style*/ 
+	margin: 0px;
+
+	background-color: #FFFFFF;
+	
+}	
+	
+h1 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	letter-spacing: .4em;
+	margin-bottom: 1em;
+	text-transform: lowercase;
+}
+/* get the values of the color from the office*/
+body {
+	background-color: rgb(148,54,52);*/
+	background-color: #A52A2A;
+}
+
+p{
+	background-color: black;
+	font-size: 20pt;
+	line-height: 3ex;
+	color: white;	
+}
+
+table {
+	background-image: url(C:/freedomsheader.png);
+}
+#addbtn {
+	b
+	width: 60px;
+}
+t_frstrw {
+	background-color:;
+}
